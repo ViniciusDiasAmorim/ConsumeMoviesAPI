@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #17162E;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.search-movie {
+    width: 500px;
+    height: 60px;
+    padding: 5px;
+    display: block;
+    margin: 2.5% auto;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+
+.container-checkbox {
+    text-align: center;
+    margin-bottom: 2.5%;
+}
+
+.favorites-movies {
+    color: #706EA8;
+}
+
+.movie-container {
+    display: flex;
+    background-color: #1D1C3B;
+    width: 80%;
+    height: 200px;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.movie-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.cover-score {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+}
+
+.icon-score {
+    margin-bottom: 25%;
+}
+
+.cover-score {
+    width: 15%;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sinopse {
+    width: 40%;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.movie-cover {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 3%;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 25%;
+}
+
